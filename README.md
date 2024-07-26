@@ -36,9 +36,6 @@ The default colorscheme is set to `catppuccin` for a delightful and refreshing l
 ```lua
 vim.cmd.colorscheme "catppuccin"
 ```
-
-## 🎉 Enjoy Coding!
-
-Feel free to customize further to suit your needs. Happy coding! ✨
+## More pluggins will be added !
 
 ---
