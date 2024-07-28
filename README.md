@@ -11,18 +11,35 @@ Welcome to my Neovim configuration! This setup leverages the power of [lazy.nvim
 - **Leader Key**: Mapped to `<Space>` for quick access to custom keybindings.
 
 ## 🔌 Plugins
+🚀 Features
 
-### 🌟 [catppuccin/nvim](https://github.com/catppuccin/nvim)
-A soothing color scheme inspired by the Catppuccin palette. It's set as the default colorscheme to provide a visually pleasing coding experience.
+##🖌️ Aesthetic Theme - Catppuccin
+Catppuccin Theme: A soothing and visually appealing color scheme to make your coding sessions enjoyable.
+Configuration File: catppuccin.lua
 
-### 🔭 [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-A highly extendable fuzzy finder over lists to quickly navigate files, live grep, and more.
-- **Dependencies**: Requires `nvim-lua/plenary.nvim` for additional functionality.
+##📜 Status Line - Lualine
+Lualine: A blazing-fast and easy-to-configure status line for Neovim, written in Lua.
+Configuration File: lualine.lua
 
-### 🌳 [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-A tool to provide better syntax highlighting and code understanding using Treesitter.
-- **Auto-updates**: Automatically keeps Treesitter parsers up-to-date with `:TSUpdate`.
-- **Languages Supported**: Ensures installation of various language parsers like C, Lua, Vim, Elixir, JavaScript, HTML, Python, C++, Rust, and more.
+##📁 File Explorer - Neo-tree
+Neo-tree: A modern and highly customizable file explorer for Neovim.
+Configuration File: neo-tree.lua
+
+##🔍 Fuzzy Finder - Telescope
+Telescope: An extendable fuzzy finder over lists that brings together functionality like file searching, picking, and much more.
+Configuration File: telescope.lua
+
+##🌲 Syntax Highlighting - Treesitter
+Treesitter: Advanced syntax highlighting and code understanding using Neovim's Treesitter integration.
+Configuration File: treesitter.lua
+##📂 File Structure
+init.lua: Main configuration file that loads all the modules.
+catppuccin.lua: Configuration for the Catppuccin theme.
+lualine.lua: Configuration for the Lualine status line.
+neo-tree.lua: Configuration for the Neo-tree file explorer.
+telescope.lua: Configuration for the Telescope fuzzy finder.
+treesitter.lua: Configuration for Treesitter.
+vim-options.lua: General Vim options and settings.
 
 ## 🗝️ Keybindings
 
