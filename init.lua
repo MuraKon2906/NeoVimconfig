@@ -22,9 +22,10 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 
---Vim cmd stored in vim-options.lua require
+--vim cmd stored in vim-options.lua 
 require("vim-options")
 
 -- Setup lazy.nvim
 require("lazy").setup("plugins")
+
 
