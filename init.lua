@@ -28,3 +28,4 @@ require("vim-options")
 -- Setup lazy.nvim
 require("lazy").setup("plugins")
 
+
