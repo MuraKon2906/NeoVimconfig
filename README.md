@@ -13,26 +13,26 @@ Welcome to my Neovim configuration! This setup leverages the power of [lazy.nvim
 ## 🔌 Plugins
 🚀 Features
 
-##🖌️ Aesthetic Theme - Catppuccin
+## 🖌️ Aesthetic Theme - Catppuccin
 Catppuccin Theme: A soothing and visually appealing color scheme to make your coding sessions enjoyable.
 Configuration File: catppuccin.lua
 
-##📜 Status Line - Lualine
+## 📜 Status Line - Lualine
 Lualine: A blazing-fast and easy-to-configure status line for Neovim, written in Lua.
 Configuration File: lualine.lua
 
-##📁 File Explorer - Neo-tree
+## 📁 File Explorer - Neo-tree
 Neo-tree: A modern and highly customizable file explorer for Neovim.
 Configuration File: neo-tree.lua
 
-##🔍 Fuzzy Finder - Telescope
+## 🔍 Fuzzy Finder - Telescope
 Telescope: An extendable fuzzy finder over lists that brings together functionality like file searching, picking, and much more.
 Configuration File: telescope.lua
 
-##🌲 Syntax Highlighting - Treesitter
+## 🌲 Syntax Highlighting - Treesitter
 Treesitter: Advanced syntax highlighting and code understanding using Neovim's Treesitter integration.
 Configuration File: treesitter.lua
-##📂 File Structure
+## 📂 File Structure
 init.lua: Main configuration file that loads all the modules.
 catppuccin.lua: Configuration for the Catppuccin theme.
 lualine.lua: Configuration for the Lualine status line.
