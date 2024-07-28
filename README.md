@@ -45,6 +45,7 @@ vim-options.lua: General Vim options and settings.
 
 - **Find Files**: Use `<C-p>` to open the file finder.
 - **Live Grep**: Use `<leader>fg` (default: `<Space>fg`) to search through your codebase.
+- **File Explorer**: Use '<C-n>' ('<CTRL-n>')
 
 ## 🌈 Color Scheme
 
